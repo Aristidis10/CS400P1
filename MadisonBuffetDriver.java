@@ -177,7 +177,7 @@ public class MadisonBuffetDriver
                 "**********************************************************************************************************\n" +
                 "* Welcome to Madison Buffet, here are the commands you can do:\n" +
                 "* \"a <name> <rating>\" adding a restaurant with its name int string and rating in double\n" +
-                "* THE RATING SHOULD BE A DOUBLE WITH ONE DECIMAL PLACE FROM 1.0 TO 5.0\n" +
+                "* THE RATING SHOULD BE A DOUBLE WITH ONE DECIMAL PLACE FROM 0.0 TO 5.0\n" +
                 "* \"af <name>\" adding a bunch of restaurants in file, each line in file contents must be <name, rating>\n" +
                 "* \"r <name>\" removing a restaurant with its name in string\n" +
                 "* \"s\" show all the restaurant in the program\n" +
