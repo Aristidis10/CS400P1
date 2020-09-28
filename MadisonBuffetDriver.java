@@ -139,8 +139,8 @@ public class MadisonBuffetDriver
                 if(name.equals("")) break;
                 double rating = Double.parseDouble(sc2.next());
                 madisonBuffet.put(name,rating);
-                System.out.println("Adding restaurant: "+name);
             }
+            System.out.println("file " + fileName + " added");
         }
         catch(FileNotFoundException fnf)
         {
@@ -148,6 +148,7 @@ public class MadisonBuffetDriver
         }
         catch(NoSuchElementException | NumberFormatException e)
         {
+            e.printStackTrace();
             System.out.println("Your file contents are not in the right format");
         }
     }
@@ -158,6 +159,7 @@ public class MadisonBuffetDriver
      */
     public void run(Scanner sc)
     {
+        addFile("data.txt");
         String command = "None";
         while(!command.equals("q"))
         {
@@ -171,9 +173,11 @@ public class MadisonBuffetDriver
      */
     private void displayMenu()
     {
-        System.out.println("**********************************************************************************************************\n" +
+        System.out.println("" +
+                "**********************************************************************************************************\n" +
                 "* Welcome to Madison Buffet, here are the commands you can do:\n" +
                 "* \"a <name> <rating>\" adding a restaurant with its name int string and rating in double\n" +
+                "* THE RATING SHOULD BE A DOUBLE WITH ONE DECIMAL PLACE FROM 1.0 TO 5.0\n" +
                 "* \"af <name>\" adding a bunch of restaurants in file, each line in file contents must be <name, rating>\n" +
                 "* \"r <name>\" removing a restaurant with its name in string\n" +
                 "* \"s\" show all the restaurant in the program\n" +
