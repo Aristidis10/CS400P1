@@ -10,7 +10,6 @@ Chipotle_Mexican_Grill 4.2
 Casa_de_Lara 4.2
 RED 4.7
 Graft 4.7
-Cento 4.4
 Sushi_Express 4.0
 Asian_Kitchen 3.1
 Milio's_Sandwiches 3.4
@@ -43,7 +42,6 @@ Yume_Sushi 4.0
 Camp_Trippalindee 4.6
 Himal_Chuli_Restaurant 4.6
 Naf_Naf_Grill 4.4
-Fresco 4.4
 Mirch_Masala 4.1
 Ramen_Kid 4.1
 Crave 4.4
