@@ -159,7 +159,7 @@ public class MadisonBuffetDriver
      */
     public void run(Scanner sc)
     {
-        addFile("data.txt");
+        addFile("madisonBuffet.txt");
         String command = "None";
         while(!command.equals("q"))
         {
@@ -169,7 +169,7 @@ public class MadisonBuffetDriver
         }
     }
     /**
-     * private helper method to display the menu  
+     * private helper method to display the menu
      */
     private void displayMenu()
     {
